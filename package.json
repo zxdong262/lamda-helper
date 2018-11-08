@@ -1,0 +1,27 @@
+{
+  "name": "lamda-helper",
+  "version": "0.0.1",
+  "description": "A lamda service helps dealing with api gateway timeout issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/lamda-helper.git"
+  },
+  "keywords": [
+    "lamda",
+    "timeout",
+    "helper",
+    "api",
+    "gate",
+    "way"
+  ],
+  "author": "ZHAO Xudong <zxdong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxdong262/lamda-helper/issues"
+  },
+  "homepage": "https://github.com/zxdong262/lamda-helper#readme"
+}
