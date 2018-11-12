@@ -68,7 +68,7 @@ yarn start
 yarn test
 ```
 
-## Building and Running Your Bot in Production
+## Building and Running Your App in Production
 
 ```bash
 # install pm2 first if you wanna use pm2
