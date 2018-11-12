@@ -1,0 +1,9 @@
+apps:
+    name: lambda-helper
+    script: ./server/run-prod-server.js
+    exec_mode : cluster
+    error_file: ./logs/lambda-helper_err.log
+    out_file: ./logs/lambda-helper_out.log
+    pid_file: ./pids/lambda-helper.pid
+    env:
+        NODE_ENV: production
