@@ -63,3 +63,12 @@ export function handleRCError(type, e) {
     _.get(e, 'response.data') || e.stack
   )
 }
+
+/**
+ * wait async
+ */
+export function delay(time) {
+  return new Promise(resolve => {
+    setTimeout(resolve, time)
+  })
+}
