@@ -1,6 +1,7 @@
 # lambda-helper
 A lambda service helps dealing with api gateway timeout issue.
-But it is not needed at all, we could use lambda self trigger to do it:
+
+It is **not needed** any more, we could use lambda self trigger to do it:
 https://github.com/zxdong262/lamda-helper/blob/test/src/lambda/lib/self-trigger.js
 
 ## Why it is needed
