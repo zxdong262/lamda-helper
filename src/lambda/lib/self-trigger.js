@@ -1,6 +1,8 @@
 /**
  * trigger self event
+ * from https://github.com/tylerlong/ringcentral-chatbot-js/compare/31a0989458c9690e6cd96bcc57563efad1fdde87...master
  */
+
 
 import {delay} from './common'
 
