@@ -1,5 +1,7 @@
 # lambda-helper
 A lambda service helps dealing with api gateway timeout issue.
+But it is not needed at all, we could use lambda self trigger to do it:
+https://github.com/zxdong262/lamda-helper/blob/test/src/lambda/lib/self-trigger.js
 
 ## Why it is needed
 Aws lambda is powerful tool, but it has some limitations, timeout issue is one of them, once handler returned result, lambda will be freazed, can not do some backgroud work. For example, lambda got a request to register a bot, need a 200 response to make it work, but with some fail operation, we need to retry one minute later, unfortunately in 30s, api gateway will timeout, how can we handle this?
